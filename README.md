@@ -1,53 +1,71 @@
 # CheXpert X-Ray Labeling Project
 
-This project implements a Convolutional Neural Network (CNN) from scratch in NumPy to classify chest X-ray images from the CheXpert dataset (https://stanfordmlgroup.github.io/competitions/chexpert/) by the Stanford ML Group.
+This project implements and trains a **Convolutional Neural Network (CNN)** to classify chest X-ray images from the [**CheXpert dataset**](https://stanfordmlgroup.github.io/competitions/chexpert/) by the Stanford ML Group.
 
-It is a self-contained prototype to study model construction and optimization without relying on libraries like PyTorch or TensorFlow.
+The goal is to build and understand deep learning pipelines for medical image classification.
+
+As of October 2025, I am in the process of **hyperparamter optimization (v2.2)**.
 
 
 # Usage
 
 1. Preprocess the data:
-   - Use "process_data.py" to convert downloaded CheXpert images and labels into NumPy arrays.
+   - Use `process_data.py` to convert downloaded CheXpert images and labels into NumPy arrays.
    - To manage memory, limit the dataset (~10,000) using a stopping condition in the loop.
-   - (Optional) Replace the hardcoded conditions "male" and "frontal" with other filters (Here filters are used to simply training).
 
 2. Train the CNN:
-   - Run "network.py": to train the model.
+   - Run `Network_2.2.py`: to train the model.
    - If training is too long, use save/read functions to restart.
 
+```python
+python3 Network_2.2.py -lr LEARNING_RATE -wd WEIGHT_DECAY -epochs EPOCHS > log.txt
+```
 
 # Development Progress
 
-| Version | Features                                                                 |
-|---------|--------------------------------------------------------------------------|
-| v1.0    | Built the overall CNN architecture in NumPy                              |
-| v1.1    | Added momentum and batch processing                                      |
-| v1.2    | Parallelized computation across channels in hidden layers  
+| Version | Description |
+|----------|--------------|
+| v1.0 | Built CNN architecture entirely in NumPy, trained on small subsets of CheXpert. |
+| v1.1–v1.2 | Added momentum, batch processing, and partial parallelization across channels. |
+| v2.0 | Migrated to PyTorch, introduced residual layers, Adam optimizer, and AUROC as main metric. |
+| v2.1 | Refined training loop: ignored unlabeled samples, improved learning rate scheduling, and added bottleneck blocks. |
+| v2.2 (Current) | Designed for hyperparameter sweeps  (learning rate, weight decay, batch size). Robust and modular for experimentation. |
 
+# Model Description 
+The model uses a deep residual CNN architecture implemented in PyTorch.
 
-# Current Status
+Architecture highlights (v2.2):
+- Input is frontal-view X-ray images resized to 224 × 224
+- Base convolutional layers with BatchNorm + ReLU
+- Bottleneck residual blocks
+- Fully connected classifier head
+- AUROC as primary performance metric
 
-- This is a very early-stage prototype.
-- Training is limited due to performance constraints (especially memory), but we observe decreasing cost and increasing success in the first few epoches.
-- See the sample output file for training log (uses 30,000 images subset of the full data, test set is 108 fully labeled images).
+# Example output files
 
+| File | Description |
+|----------|--------------|
+| `sample_output/` | model checkpoint and sample output |
 
-# Limitations & Future Work
+# Hyperparameter Sweep
 
-1. Convolutional layers currently lack customized dialation and padding options. 
+I am currently finding the best (learning rate, weight decay) parameters. Here are the AUROC for training set and test set for the 12 combinations. Currently the best test set AUROC is still around 60%. 
 
-2. Performance bottlenecks:
-   - Training on 10,000 images takes ~1 hour, partly due to the inefficient nested for loops in convolutional layers.
-   - Plans to improve:
-     - Further parallelize convolution operations, or alternatively,
-     - Implement convolutional layers with vectorized operations.
-     - Switch from list-based channel representation to a full 4D tensor format: (channel_size, batch_size, height, width)
-     - Possibly port to GPU with CuPy for speedups.
+<img src="figures/training.png" alt="Contour plot" width="400">
 
-3. Architecture Improvements:
-   - Add residual layers once performance bottlenecks are resolved, though deeper networks are not yet feasible due to runtime limitations.
-   - Consider how to use multiple-view input (frontal/lateral) and tabular input processing (age/sex) to increase performance.
+<img src="figures/test.png" alt="Contour plot" width="400">
+
+I am currently investigating the cost for this overfitting and trying hyperparameter sweeps with better grib and improved granularity.
+
+# Limitations
+
+1. Logging and monitoring: Training logs are currently minimal. Future versions will integrate TensorBoard or Weights abd Biases.
+
+2. Data coverage: 
+Only frontal X-ray views are used. Adding lateral-view images or multi-view fusion could improve classification accuracy.
+
+3. Evaluation metrics:
+Current results use AUROC only. Future evaluation may include F1-score, precision-recall AUC, or calibration metrics.
 
 
 # Motivation
