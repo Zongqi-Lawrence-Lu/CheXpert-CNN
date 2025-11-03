@@ -1,0 +1,459 @@
+Models will be saved to ./model with name resnet_beta_LR_0.001_WD_0.001
+Using pytorch version 2.2.1+cu121
+Using CUDA version 12.1, 40.00 GB of CUDA memory available
+Finished setup at time: 0:00:03
+
+Changing uncertain to 0
+Sucessfully loaded training and valid data, 89720 and 22431 images
+Sucessfully loaded testing data, 108 images in total
+Finished loading data at time: 0:00:42
+
+Using initial learning rate 0.001 and weight decay constant 0.001
+Finished model construction at time: 0:00:47
+
+Training set strict success 25.82%, average AUROC success is 45.00%
+Cardiomegaly has lowest success of 33.09%. Pneumothorax has highest success of 56.36%. No finding success is 0.00%.
+Validation set strict success 22.92%, average AUROC success is 47.81%
+Consolidation has lowest success of 37.12%. Pleural Other has highest success of 56.06%. No finding success is 0.00%.
+Finished model testing at time: 0:01:34
+
+Starting epoch 1
+Finished training epoch 1 with loss 158161.467773 at time: 0:03:07
+Training set strict success 42.58%, average AUROC success is 64.07%
+Pneumonia has lowest success of 50.86%. Pleural Effusion has highest success of 81.18%. No finding success is 0.00%.
+Validation set strict success 42.54%, average AUROC success is 59.98%
+Lung Lesion has lowest success of 47.39%. Pleural Effusion has highest success of 77.73%. No finding success is 0.00%.
+Finished model testing at time: 0:03:41
+
+Starting epoch 2
+Finished training epoch 2 with loss 149061.704102 at time: 0:04:37
+Training set strict success 43.81%, average AUROC success is 67.53%
+Pneumonia has lowest success of 54.99%. Pleural Effusion has highest success of 85.57%. No finding success is 0.00%.
+Validation set strict success 42.34%, average AUROC success is 64.08%
+Lung Lesion has lowest success of 50.68%. Pleural Effusion has highest success of 82.40%. No finding success is 0.00%.
+Finished model testing at time: 0:05:10
+
+Starting epoch 3
+Finished training epoch 3 with loss 146019.000244 at time: 0:06:06
+Training set strict success 45.78%, average AUROC success is 69.21%
+Pleural Other has lowest success of 55.72%. Pleural Effusion has highest success of 86.53%. No finding success is 0.00%.
+Validation set strict success 44.17%, average AUROC success is 65.77%
+Lung Lesion has lowest success of 50.49%. Pleural Effusion has highest success of 84.07%. No finding success is 0.00%.
+Finished model testing at time: 0:06:40
+
+Starting epoch 4
+Finished training epoch 4 with loss 144337.408936 at time: 0:07:37
+Training set strict success 44.22%, average AUROC success is 69.75%
+Pleural Other has lowest success of 56.64%. Pleural Effusion has highest success of 87.10%. No finding success is 0.00%.
+Validation set strict success 43.85%, average AUROC success is 65.54%
+Pleural Other has lowest success of 48.56%. Pleural Effusion has highest success of 84.21%. No finding success is 0.00%.
+Finished model testing at time: 0:08:10
+
+Starting epoch 5
+Finished training epoch 5 with loss 142631.772095 at time: 0:09:06
+Training set strict success 43.25%, average AUROC success is 68.73%
+Pneumonia has lowest success of 56.73%. Pleural Effusion has highest success of 87.61%. No finding success is 0.00%.
+Validation set strict success 38.22%, average AUROC success is 64.16%
+Lung Lesion has lowest success of 51.20%. Pleural Effusion has highest success of 83.48%. No finding success is 0.00%.
+Finished model testing at time: 0:09:39
+
+Starting epoch 6
+Finished training epoch 6 with loss 141084.843079 at time: 0:10:36
+Training set strict success 42.67%, average AUROC success is 70.72%
+Pneumonia has lowest success of 55.84%. Pleural Effusion has highest success of 87.82%. No finding success is 0.00%.
+Validation set strict success 40.88%, average AUROC success is 65.88%
+Lung Lesion has lowest success of 49.19%. Pleural Effusion has highest success of 84.80%. No finding success is 0.00%.
+Finished model testing at time: 0:11:10
+
+Starting epoch 7
+Finished training epoch 7 with loss 139633.049316 at time: 0:12:06
+Training set strict success 42.78%, average AUROC success is 68.01%
+Support Devices has lowest success of 54.01%. Pleural Effusion has highest success of 87.60%. No finding success is 0.00%.
+Validation set strict success 38.32%, average AUROC success is 63.91%
+Lung Lesion has lowest success of 51.02%. Pleural Effusion has highest success of 83.98%. No finding success is 0.00%.
+Finished model testing at time: 0:12:40
+
+Starting epoch 8
+Finished training epoch 8 with loss 138642.867004 at time: 0:13:36
+Training set strict success 46.08%, average AUROC success is 73.03%
+Pneumonia has lowest success of 58.78%. Pleural Effusion has highest success of 88.93%. No finding success is 0.00%.
+Validation set strict success 44.24%, average AUROC success is 67.28%
+Lung Lesion has lowest success of 49.40%. Pleural Effusion has highest success of 84.83%. No finding success is 0.00%.
+Finished model testing at time: 0:14:09
+
+Starting epoch 9
+Finished training epoch 9 with loss 136416.083252 at time: 0:15:06
+Training set strict success 43.88%, average AUROC success is 71.37%
+Pleural Other has lowest success of 57.08%. Pleural Effusion has highest success of 88.89%. No finding success is 0.00%.
+Validation set strict success 39.36%, average AUROC success is 65.24%
+Lung Lesion has lowest success of 49.83%. Pleural Effusion has highest success of 83.72%. No finding success is 0.00%.
+Finished model testing at time: 0:15:39
+
+Starting epoch 10
+Finished training epoch 10 with loss 134999.456970 at time: 0:16:35
+Training set strict success 48.28%, average AUROC success is 73.99%
+Pneumonia has lowest success of 59.28%. Pleural Effusion has highest success of 90.31%. No finding success is 0.00%.
+Validation set strict success 43.80%, average AUROC success is 66.98%
+Lung Lesion has lowest success of 52.20%. Pleural Effusion has highest success of 84.68%. No finding success is 0.00%.
+Finished model testing at time: 0:17:09
+
+Starting epoch 11
+Finished training epoch 11 with loss 132047.295532 at time: 0:18:05
+Training set strict success 48.24%, average AUROC success is 75.34%
+Atelectasis has lowest success of 58.86%. Pleural Effusion has highest success of 90.17%. No finding success is 0.00%.
+Validation set strict success 41.82%, average AUROC success is 66.73%
+Pneumonia has lowest success of 54.02%. Pleural Effusion has highest success of 83.38%. No finding success is 0.00%.
+Finished model testing at time: 0:18:39
+
+Starting epoch 12
+Finished training epoch 12 with loss 128859.886475 at time: 0:19:35
+Training set strict success 51.96%, average AUROC success is 77.66%
+Pneumonia has lowest success of 61.89%. Pleural Effusion has highest success of 92.36%. No finding success is 0.00%.
+Validation set strict success 43.67%, average AUROC success is 67.08%
+Pneumonia has lowest success of 53.35%. Pleural Effusion has highest success of 84.85%. No finding success is 0.00%.
+Finished model testing at time: 0:20:09
+
+Starting epoch 13
+Finished training epoch 13 with loss 123685.536499 at time: 0:21:05
+Training set strict success 50.37%, average AUROC success is 78.31%
+Pneumonia has lowest success of 59.19%. Pleural Effusion has highest success of 93.29%. No finding success is 0.00%.
+Validation set strict success 42.69%, average AUROC success is 65.71%
+Pneumonia has lowest success of 52.17%. Pleural Effusion has highest success of 83.29%. No finding success is 0.00%.
+Finished model testing at time: 0:21:38
+
+Starting epoch 14
+Finished training epoch 14 with loss 117032.526245 at time: 0:22:34
+Training set strict success 52.57%, average AUROC success is 80.68%
+Pneumonia has lowest success of 63.59%. Pleural Effusion has highest success of 94.58%. No finding success is 0.00%.
+Validation set strict success 42.72%, average AUROC success is 64.77%
+Lung Lesion has lowest success of 52.99%. Pleural Effusion has highest success of 82.49%. No finding success is 0.00%.
+Finished model testing at time: 0:23:07
+
+Starting epoch 15
+Finished training epoch 15 with loss 99920.043945 at time: 0:24:03
+Training set strict success 62.25%, average AUROC success is 87.21%
+Pneumonia has lowest success of 69.39%. Pleural Effusion has highest success of 98.14%. No finding success is 0.00%.
+Validation set strict success 43.32%, average AUROC success is 64.70%
+Lung Lesion has lowest success of 54.11%. Pleural Effusion has highest success of 81.57%. No finding success is 0.00%.
+Finished model testing at time: 0:24:37
+
+Starting epoch 16
+Finished training epoch 16 with loss 86623.884888 at time: 0:25:33
+Training set strict success 67.13%, average AUROC success is 89.38%
+Pneumonia has lowest success of 70.85%. Pleural Effusion has highest success of 98.83%. No finding success is 0.00%.
+Validation set strict success 40.83%, average AUROC success is 64.21%
+Lung Lesion has lowest success of 52.36%. Pleural Effusion has highest success of 80.68%. No finding success is 0.00%.
+Finished model testing at time: 0:26:07
+
+Starting epoch 17
+Finished training epoch 17 with loss 76714.002014 at time: 0:27:03
+Training set strict success 68.70%, average AUROC success is 90.24%
+Pneumonia has lowest success of 72.32%. Pleural Effusion has highest success of 99.00%. No finding success is 0.00%.
+Validation set strict success 40.88%, average AUROC success is 63.71%
+Lung Lesion has lowest success of 54.64%. Pleural Effusion has highest success of 79.97%. No finding success is 0.00%.
+Finished model testing at time: 0:27:36
+
+Starting epoch 18
+Finished training epoch 18 with loss 66454.969849 at time: 0:28:32
+Training set strict success 73.42%, average AUROC success is 92.23%
+Pneumonia has lowest success of 75.11%. Pleural Effusion has highest success of 99.13%. No finding success is 0.00%.
+Validation set strict success 40.03%, average AUROC success is 62.36%
+Pneumonia has lowest success of 52.21%. Pleural Effusion has highest success of 77.14%. No finding success is 0.00%.
+Finished model testing at time: 0:29:06
+
+Starting epoch 19
+Finished training epoch 19 with loss 58275.036560 at time: 0:30:02
+Training set strict success 77.15%, average AUROC success is 93.87%
+Pneumonia has lowest success of 79.06%. Pleural Effusion has highest success of 99.67%. No finding success is 0.00%.
+Validation set strict success 40.29%, average AUROC success is 62.78%
+Atelectasis has lowest success of 51.88%. Pleural Effusion has highest success of 80.03%. No finding success is 0.00%.
+Finished model testing at time: 0:30:35
+
+Starting epoch 20
+Finished training epoch 20 with loss 51111.488464 at time: 0:31:31
+Training set strict success 79.54%, average AUROC success is 95.39%
+Pneumonia has lowest success of 83.07%. Pleural Effusion has highest success of 99.87%. No finding success is 0.00%.
+Validation set strict success 37.27%, average AUROC success is 62.41%
+Pneumonia has lowest success of 51.97%. Pleural Effusion has highest success of 79.89%. No finding success is 0.00%.
+Finished model testing at time: 0:32:05
+
+Starting epoch 21
+Finished training epoch 21 with loss 38107.059174 at time: 0:33:01
+Training set strict success 88.59%, average AUROC success is 96.75%
+Pleural Other has lowest success of 85.80%. Pleural Effusion has highest success of 99.97%. No finding success is 0.00%.
+Validation set strict success 39.88%, average AUROC success is 62.83%
+Atelectasis has lowest success of 52.51%. Pleural Effusion has highest success of 80.46%. No finding success is 0.00%.
+Finished model testing at time: 0:33:35
+
+Starting epoch 22
+Finished training epoch 22 with loss 29117.902527 at time: 0:34:31
+Training set strict success 90.12%, average AUROC success is 97.46%
+Pneumonia has lowest success of 88.18%. Pleural Effusion has highest success of 99.99%. No finding success is 0.00%.
+Validation set strict success 39.48%, average AUROC success is 62.98%
+Pneumonia has lowest success of 52.39%. Pleural Effusion has highest success of 80.44%. No finding success is 0.00%.
+Finished model testing at time: 0:35:05
+
+Starting epoch 23
+Finished training epoch 23 with loss 25154.054428 at time: 0:36:01
+Training set strict success 91.89%, average AUROC success is 97.80%
+Pleural Other has lowest success of 89.50%. Pleural Effusion has highest success of 99.98%. No finding success is 0.00%.
+Validation set strict success 40.26%, average AUROC success is 62.75%
+Pneumonia has lowest success of 51.62%. Pleural Effusion has highest success of 79.35%. No finding success is 0.00%.
+Finished model testing at time: 0:36:34
+
+Starting epoch 24
+Finished training epoch 24 with loss 22324.260635 at time: 0:37:30
+Training set strict success 92.62%, average AUROC success is 98.21%
+Pleural Other has lowest success of 90.82%. Pleural Effusion has highest success of 99.99%. No finding success is 0.00%.
+Validation set strict success 38.78%, average AUROC success is 62.43%
+Pneumonia has lowest success of 51.58%. Pleural Effusion has highest success of 79.62%. No finding success is 0.00%.
+Finished model testing at time: 0:38:04
+
+Starting epoch 25
+Finished training epoch 25 with loss 19949.003914 at time: 0:39:00
+Training set strict success 93.33%, average AUROC success is 98.40%
+Pleural Other has lowest success of 91.53%. Pleural Effusion has highest success of 99.99%. No finding success is 0.00%.
+Validation set strict success 38.10%, average AUROC success is 61.82%
+Pneumonia has lowest success of 51.58%. Pleural Effusion has highest success of 78.52%. No finding success is 0.00%.
+Finished model testing at time: 0:39:33
+
+Starting epoch 26
+Finished training epoch 26 with loss 18777.989960 at time: 0:40:29
+Training set strict success 94.43%, average AUROC success is 98.59%
+Pleural Other has lowest success of 91.96%. Pleural Effusion has highest success of 99.99%. No finding success is 0.00%.
+Validation set strict success 39.45%, average AUROC success is 62.08%
+Pneumonia has lowest success of 51.20%. Pleural Effusion has highest success of 79.23%. No finding success is 0.00%.
+Finished model testing at time: 0:41:02
+
+Starting epoch 27
+Finished training epoch 27 with loss 14696.137375 at time: 0:41:58
+Training set strict success 96.58%, average AUROC success is 99.05%
+Pleural Other has lowest success of 94.12%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.55%, average AUROC success is 62.70%
+Pneumonia has lowest success of 52.43%. Pleural Effusion has highest success of 79.63%. No finding success is 0.00%.
+Finished model testing at time: 0:42:31
+
+Starting epoch 28
+Finished training epoch 28 with loss 10877.623322 at time: 0:43:27
+Training set strict success 97.51%, average AUROC success is 99.28%
+Pleural Other has lowest success of 95.01%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.53%, average AUROC success is 62.15%
+Pneumonia has lowest success of 51.30%. Pleural Effusion has highest success of 79.10%. No finding success is 0.00%.
+Finished model testing at time: 0:44:01
+
+Starting epoch 29
+Finished training epoch 29 with loss 9342.552788 at time: 0:44:57
+Training set strict success 97.81%, average AUROC success is 99.43%
+Pleural Other has lowest success of 96.01%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.86%, average AUROC success is 62.24%
+Pneumonia has lowest success of 51.53%. Pleural Effusion has highest success of 79.06%. No finding success is 0.00%.
+Finished model testing at time: 0:45:31
+
+Starting epoch 30
+Finished training epoch 30 with loss 8525.800068 at time: 0:46:26
+Training set strict success 97.81%, average AUROC success is 99.47%
+Pleural Other has lowest success of 96.41%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.80%, average AUROC success is 62.06%
+Pneumonia has lowest success of 51.96%. Pleural Effusion has highest success of 78.77%. No finding success is 0.00%.
+Finished model testing at time: 0:47:00
+
+Starting epoch 31
+Finished training epoch 31 with loss 7901.999405 at time: 0:47:56
+Training set strict success 98.34%, average AUROC success is 99.60%
+Pleural Other has lowest success of 97.07%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.12%, average AUROC success is 61.97%
+Pneumonia has lowest success of 52.03%. Pleural Effusion has highest success of 78.57%. No finding success is 0.00%.
+Finished model testing at time: 0:48:29
+
+Starting epoch 32
+Finished training epoch 32 with loss 7169.582664 at time: 0:49:25
+Training set strict success 98.41%, average AUROC success is 99.65%
+Pleural Other has lowest success of 97.53%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 39.01%, average AUROC success is 61.85%
+Pneumonia has lowest success of 51.68%. Pleural Effusion has highest success of 78.53%. No finding success is 0.00%.
+Finished model testing at time: 0:49:58
+
+Starting epoch 33
+Finished training epoch 33 with loss 6462.106575 at time: 0:50:54
+Training set strict success 98.87%, average AUROC success is 99.74%
+Pleural Other has lowest success of 98.05%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.95%, average AUROC success is 62.10%
+Pneumonia has lowest success of 51.73%. Pleural Effusion has highest success of 78.85%. No finding success is 0.00%.
+Finished model testing at time: 0:51:27
+
+Starting epoch 34
+Finished training epoch 34 with loss 5083.047462 at time: 0:52:23
+Training set strict success 99.05%, average AUROC success is 99.79%
+Pleural Other has lowest success of 98.37%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.90%, average AUROC success is 61.83%
+Pneumonia has lowest success of 51.66%. Pleural Effusion has highest success of 78.84%. No finding success is 0.00%.
+Finished model testing at time: 0:52:56
+
+Starting epoch 35
+Finished training epoch 35 with loss 4579.956154 at time: 0:53:52
+Training set strict success 99.20%, average AUROC success is 99.84%
+Pleural Other has lowest success of 98.74%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.40%, average AUROC success is 61.80%
+Pneumonia has lowest success of 51.31%. Pleural Effusion has highest success of 78.47%. No finding success is 0.00%.
+Finished model testing at time: 0:54:25
+
+Starting epoch 36
+Finished training epoch 36 with loss 4392.760624 at time: 0:55:21
+Training set strict success 99.26%, average AUROC success is 99.86%
+Pleural Other has lowest success of 98.90%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.56%, average AUROC success is 61.66%
+Pneumonia has lowest success of 51.52%. Pleural Effusion has highest success of 78.55%. No finding success is 0.00%.
+Finished model testing at time: 0:55:54
+
+Starting epoch 37
+Finished training epoch 37 with loss 4064.969051 at time: 0:56:50
+Training set strict success 99.29%, average AUROC success is 99.87%
+Pleural Other has lowest success of 98.93%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.50%, average AUROC success is 61.69%
+Pneumonia has lowest success of 51.47%. Pleural Effusion has highest success of 78.72%. No finding success is 0.00%.
+Finished model testing at time: 0:57:24
+
+Starting epoch 38
+Finished training epoch 38 with loss 3867.696421 at time: 0:58:21
+Training set strict success 99.23%, average AUROC success is 99.88%
+Pleural Other has lowest success of 99.12%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.66%, average AUROC success is 61.68%
+Pneumonia has lowest success of 51.30%. Pleural Effusion has highest success of 78.76%. No finding success is 0.00%.
+Finished model testing at time: 0:58:54
+
+Starting epoch 39
+Finished training epoch 39 with loss 3563.116875 at time: 0:59:50
+Training set strict success 99.44%, average AUROC success is 99.91%
+Pleural Other has lowest success of 99.31%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.57%, average AUROC success is 61.79%
+Pneumonia has lowest success of 51.75%. Pleural Effusion has highest success of 78.68%. No finding success is 0.00%.
+Finished model testing at time: 1:00:23
+
+Starting epoch 40
+Finished training epoch 40 with loss 3289.466394 at time: 1:01:19
+Training set strict success 99.52%, average AUROC success is 99.93%
+Pleural Other has lowest success of 99.46%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.36%, average AUROC success is 61.69%
+Pneumonia has lowest success of 51.43%. Pleural Effusion has highest success of 78.44%. No finding success is 0.00%.
+Finished model testing at time: 1:01:53
+
+Starting epoch 41
+Finished training epoch 41 with loss 3124.213467 at time: 1:02:49
+Training set strict success 99.55%, average AUROC success is 99.93%
+Pleural Other has lowest success of 99.50%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.66%, average AUROC success is 61.75%
+Pneumonia has lowest success of 51.69%. Pleural Effusion has highest success of 78.53%. No finding success is 0.00%.
+Finished model testing at time: 1:03:22
+
+Starting epoch 42
+Finished training epoch 42 with loss 2966.576921 at time: 1:04:18
+Training set strict success 99.57%, average AUROC success is 99.94%
+Pleural Other has lowest success of 99.53%. Pneumothorax has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.37%, average AUROC success is 61.64%
+Pneumonia has lowest success of 51.77%. Pleural Effusion has highest success of 78.32%. No finding success is 0.00%.
+Finished model testing at time: 1:04:52
+
+Starting epoch 43
+Finished training epoch 43 with loss 2829.569609 at time: 1:05:48
+Training set strict success 99.60%, average AUROC success is 99.94%
+Pleural Other has lowest success of 99.54%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.65%, average AUROC success is 61.57%
+Pneumonia has lowest success of 51.58%. Pleural Effusion has highest success of 78.12%. No finding success is 0.00%.
+Finished model testing at time: 1:06:21
+
+Starting epoch 44
+Finished training epoch 44 with loss 2674.195940 at time: 1:07:17
+Training set strict success 99.63%, average AUROC success is 99.95%
+Pleural Other has lowest success of 99.63%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.55%, average AUROC success is 61.59%
+Pneumonia has lowest success of 51.38%. Pleural Effusion has highest success of 78.25%. No finding success is 0.00%.
+Finished model testing at time: 1:07:50
+
+Starting epoch 45
+Finished training epoch 45 with loss 2605.679373 at time: 1:08:46
+Training set strict success 99.66%, average AUROC success is 99.96%
+Pleural Other has lowest success of 99.69%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.69%, average AUROC success is 61.58%
+Pneumonia has lowest success of 51.42%. Pleural Effusion has highest success of 78.24%. No finding success is 0.00%.
+Finished model testing at time: 1:09:19
+
+Starting epoch 46
+Finished training epoch 46 with loss 2560.545361 at time: 1:10:15
+Training set strict success 99.67%, average AUROC success is 99.96%
+Pleural Other has lowest success of 99.72%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.51%, average AUROC success is 61.61%
+Pneumonia has lowest success of 51.49%. Pleural Effusion has highest success of 78.27%. No finding success is 0.00%.
+Finished model testing at time: 1:10:49
+
+Starting epoch 47
+Finished training epoch 47 with loss 2434.886443 at time: 1:11:45
+Training set strict success 99.69%, average AUROC success is 99.96%
+Pleural Other has lowest success of 99.74%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.78%, average AUROC success is 61.51%
+Pneumonia has lowest success of 51.49%. Pleural Effusion has highest success of 78.27%. No finding success is 0.00%.
+Finished model testing at time: 1:12:19
+
+Starting epoch 48
+Finished training epoch 48 with loss 2292.458979 at time: 1:13:15
+Training set strict success 99.70%, average AUROC success is 99.97%
+Pleural Other has lowest success of 99.76%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.67%, average AUROC success is 61.47%
+Pneumonia has lowest success of 51.45%. Pleural Effusion has highest success of 78.17%. No finding success is 0.00%.
+Finished model testing at time: 1:13:48
+
+Starting epoch 49
+Finished training epoch 49 with loss 2279.246395 at time: 1:14:45
+Training set strict success 99.72%, average AUROC success is 99.96%
+Pleural Other has lowest success of 99.77%. Pneumothorax has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.62%, average AUROC success is 61.49%
+Pneumonia has lowest success of 51.23%. Pleural Effusion has highest success of 78.07%. No finding success is 0.00%.
+Finished model testing at time: 1:15:18
+
+Starting epoch 50
+Finished training epoch 50 with loss 2226.990331 at time: 1:16:15
+Training set strict success 99.74%, average AUROC success is 99.97%
+Pleural Other has lowest success of 99.79%. Pleural Effusion has highest success of 100.00%. No finding success is 0.00%.
+Validation set strict success 38.74%, average AUROC success is 61.51%
+Pneumonia has lowest success of 51.53%. Pleural Effusion has highest success of 78.12%. No finding success is 0.00%.
+Finished model testing at time: 1:16:48
+
+Successfully saved model to model/resnet_beta_LR_0.001_WD_0.001.restart50.pth
+Finished training 50 epochs at time: 1:16:48
+
+train_loss: array([158161.46777344, 149061.70410156, 146019.00024414, 144337.40893555,
+       142631.77209473, 141084.84307861, 139633.04931641, 138642.86700439,
+       136416.08325195, 134999.45697021, 132047.29553223, 128859.88647461,
+       123685.53649902, 117032.52624512,  99920.04394531,  86623.8848877 ,
+        76714.00201416,  66454.96984863,  58275.03656006,  51111.48846436,
+        38107.05917358,  29117.90252686,  25154.0544281 ,  22324.26063538,
+        19949.00391388,  18777.98995972,  14696.13737488,  10877.62332153,
+         9342.55278778,   8525.8000679 ,   7901.99940491,   7169.58266449,
+         6462.10657501,   5083.04746246,   4579.95615387,   4392.76062393,
+         4064.96905136,   3867.69642067,   3563.11687469,   3289.46639442,
+         3124.21346664,   2966.57692146,   2829.56960869,   2674.19594002,
+         2605.67937279,   2560.54536057,   2434.88644314,   2292.45897865,
+         2279.24639511,   2226.9903307 ])
+train_auroc: array([64.0734402 , 67.52657661, 69.20556059, 69.75006645, 68.72611825,
+       70.72258179, 68.00999045, 73.03451437, 71.36514233, 73.98810203,
+       75.34092848, 77.66469075, 78.30854654, 80.68325244, 87.2088336 ,
+       89.38053296, 90.2431268 , 92.22702888, 93.87176449, 95.39126846,
+       96.75267155, 97.46464904, 97.80386044, 98.21368731, 98.39540216,
+       98.58764639, 99.05308577, 99.27655963, 99.42731399, 99.47219445,
+       99.59717806, 99.65169934, 99.74068403, 99.79074093, 99.84127742,
+       99.85890893, 99.86505784, 99.87626259, 99.90921341, 99.92783482,
+       99.93380675, 99.93896072, 99.9400712 , 99.94871479, 99.95895808,
+       99.96231198, 99.96355176, 99.96547195, 99.9645843 , 99.97022565])
+valid_auroc: array([59.98118038, 64.079038  , 65.76689069, 65.53510427, 64.15948363,
+       65.88429648, 63.90817624, 67.28160656, 65.24206423, 66.98329174,
+       66.72761257, 67.07819563, 65.70658775, 64.76818048, 64.70231093,
+       64.20746858, 63.70592117, 62.36458925, 62.77516026, 62.40979708,
+       62.83292495, 62.97944738, 62.74572565, 62.43484479, 61.82457759,
+       62.07579099, 62.69539228, 62.14507039, 62.23912285, 62.06091872,
+       61.97364147, 61.84677252, 62.09658384, 61.83114006, 61.7986647 ,
+       61.65581575, 61.69396593, 61.67729038, 61.7855691 , 61.69447028,
+       61.74592147, 61.64123324, 61.57475206, 61.59138863, 61.5780592 ,
+       61.60774323, 61.50558087, 61.47363002, 61.48646199, 61.51316441])
+Test set strict success 0.00%, average AUROC success is 61.64%
+Fracture has lowest success of 0.00%. Pleural Other has highest success of 85.05%. No finding success is 50.00%.
+Finished model testing at time: 1:17:03
+
