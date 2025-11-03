@@ -122,8 +122,8 @@ def load_data(small = False):
         train_images = np.load("images_frontal_male_train_small.npy") 
         train_tags = np.load("tags_frontal_male_train_small.npy")
     else:
-        train_images = np.load("/scratch/midway2/zongqi/images_frontal_train.npy") 
-        train_tags = np.load("/scratch/midway2/zongqi/tags_frontal_train.npy")
+        train_images = np.load("images_frontal_train.npy") 
+        train_tags = np.load("tags_frontal_train.npy")
 
     print("Changing uncertain to {}".format(UNCERTAIN))
     n_data = train_images.shape[0]
